@@ -5,7 +5,7 @@ import Box from '../box/box.jsx';
 import {defineMessages, injectIntl, intlShape, FormattedMessage} from 'react-intl';
 
 import styles from './preview-modal.css';
-import catIcon from './happy-cat.png';
+/* import catIcon from './happy-cat.png'; */
 
 const messages = defineMessages({
     label: {
@@ -85,14 +85,14 @@ const PreviewModal = ({intl, ...props}) => (
                             defaultMessage="Try It! {caticon}"
                             description="Label for button to try Scratch 3.0 Beta"
                             id="gui.previewModal.tryit"
-                            values={{
+                            /* values={{
                                 caticon: (
                                     <img
                                         className={styles.catIcon}
                                         src={catIcon}
                                     />
                                 )
-                            }}
+                            }} */
                         />
                     </button>
                     <button

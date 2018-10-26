@@ -8,7 +8,7 @@ import Dots from './dots.jsx';
 import helpIcon from './icons/help.svg';
 import backIcon from './icons/back.svg';
 import bluetoothIcon from './icons/bluetooth.svg';
-import scratchLinkIcon from './icons/scratchlink.svg';
+/* import scratchLinkIcon from './icons/scratchlink.svg'; */
 
 import styles from './connection-modal.css';
 
@@ -21,10 +21,10 @@ const UnavailableStep = props => (
                         {'1'}
                     </div>
                     <div className={styles.helpStepImage}>
-                        <img
+                        { /* <img
                             className={styles.scratchLinkIcon}
                             src={scratchLinkIcon}
-                        />
+                        /> */ }
                     </div>
                     <div className={styles.helpStepText}>
                         <FormattedMessage

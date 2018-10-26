@@ -53,12 +53,12 @@ import styles from './menu-bar.css';
 import helpIcon from '../../lib/assets/icon--tutorials.svg';
 import mystuffIcon from './icon--mystuff.png';
 import feedbackIcon from './icon--feedback.svg';
-import profileIcon from './icon--profile.png';
+/* import profileIcon from './icon--profile.png'; */
 import communityIcon from './icon--see-community.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import languageIcon from '../language-selector/language-icon.svg';
 
-import scratchLogo from './scratch-logo.svg';
+/* import scratchLogo from './scratch-logo.svg'; */
 
 const ariaMessages = defineMessages({
     language: {
@@ -269,12 +269,12 @@ class MenuBar extends React.Component {
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
-                                <img
+                                { /* <img
                                     alt="Scratch"
                                     className={styles.scratchLogo}
                                     draggable={false}
                                     src={scratchLogo}
-                                />
+                                /> */ }
                             </a>
                         </div>
                         <div
@@ -616,10 +616,10 @@ class MenuBar extends React.Component {
                                                 styles.accountNavMenu
                                             )}
                                         >
-                                            <img
+                                            { /* <img
                                                 className={styles.profileIcon}
                                                 src={profileIcon}
-                                            />
+                                            /> */ }
                                             <span>
                                                 {'scratch-cat'}
                                             </span>
