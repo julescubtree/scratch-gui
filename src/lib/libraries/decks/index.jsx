@@ -1,10 +1,12 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
+/* //
 // Intro
 import libraryIntro from './intro/lib-getting-started.jpg';
 import stepMove from './intro/intro1.gif';
 import stepMoveSayHello from './intro/intro2.gif';
+// */
 
 // Text to Speech
 import libraryTXTSpeech from './txt/lib_txt-to-speech.jpg';
@@ -54,6 +56,7 @@ import stepMakeSong from './make-music/make-music-make-song.gif';
 import stepMakeBeat from './make-music/make-music-make-beat.gif';
 import stepMakeBeatbox from './make-music/make-music-beatbox.gif';
 
+/* //
 // Chase-Game
 import libraryChaseGame from './chase-game/lib-chasegame.jpg';
 import stepBG from './chase-game/chase-game-add-backdrop.gif';
@@ -65,6 +68,7 @@ import stepMoveRandom from './chase-game/chase-game-move-randomly.gif';
 import stepWhenTouch from './chase-game/chase-game-touching.gif';
 import stepScoreVariable from './chase-game/chase-game-add-variable.gif';
 import stepScoreWhenTouch from './chase-game/chase-game-change-score.gif';
+// */
 
 // Make-A-Game
 import libraryMakeAGame from './game/lib-pop.jpg';
@@ -84,12 +88,12 @@ import switchCostumeThumb from './videos/animate-sprite.jpg';
 import hideAndShowThumb from './videos/hide-and-show.jpg';
 import addBackdropThumb from './videos/add-backdrop.jpg';
 import addEffectsThumb from './videos/add-effects.jpg';
-import moveArrowKeysThumb from './videos/move-arrow-keys.jpg';
+/* import moveArrowKeysThumb from './videos/move-arrow-keys.jpg'; */
 import spinThumb from './videos/spin.jpg';
 
 export default {
 
-    'intro-move-sayhello': {
+    /* 'intro-move-sayhello': {
         name: (
             <FormattedMessage
                 defaultMessage="Getting Started"
@@ -127,7 +131,7 @@ export default {
         }
         ],
         urlId: 'getStarted'
-    },
+    }, */
 
     'say-it-out-loud': {
         name: (
@@ -582,7 +586,7 @@ export default {
         urlId: 'clicker-game'
     },
 
-    'Chase-Game': {
+    /* 'Chase-Game': {
         name: (
             <FormattedMessage
                 defaultMessage="Make a Chase Game"
@@ -683,8 +687,13 @@ export default {
             ]
         }
         ],
+<<<<<<< HEAD
         urlId: 'chase-game'
     },
+=======
+        urlId: 5
+    }, */
+>>>>>>> remove tip/tutorial decks with IP graphics (note that some linked videos may still have IP graphics)
     'add-sprite': {
         name: (
             <FormattedMessage
@@ -858,7 +867,7 @@ export default {
         urlId: 'animate-a-sprite'
     },
 
-    'move-around-with-arrow-keys': {
+    /* 'move-around-with-arrow-keys': {
         name: (
             <FormattedMessage
                 defaultMessage="Use Arrow Keys"
@@ -876,8 +885,13 @@ export default {
                 'switch-costume'
             ]
         }],
+<<<<<<< HEAD
         urlId: 'arrow-keys'
     },
+=======
+        urlId: 14
+    }, */
+>>>>>>> remove tip/tutorial decks with IP graphics (note that some linked videos may still have IP graphics)
     'add-effects': {
         name: (
             <FormattedMessage
