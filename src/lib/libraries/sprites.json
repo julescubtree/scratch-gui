@@ -12449,51 +12449,6 @@
         }
     },
     {
-        "name": "Shirt-T",
-        "md5": "5d7fa4f1788f03d2962f1624d6eac800.svg",
-        "type": "sprite",
-        "tags": [
-            "fashion"
-        ],
-        "info": [
-            0,
-            1,
-            1
-        ],
-        "json": {
-            "objName": "Shirt-T",
-            "sounds": [
-                {
-                    "soundName": "pop",
-                    "soundID": -1,
-                    "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
-                    "sampleCount": 258,
-                    "rate": 11025,
-                    "format": ""
-                }
-            ],
-            "costumes": [
-                {
-                    "costumeName": "shirt-t",
-                    "baseLayerID": -1,
-                    "baseLayerMD5": "5d7fa4f1788f03d2962f1624d6eac800.svg",
-                    "bitmapResolution": 1,
-                    "rotationCenterX": 39,
-                    "rotationCenterY": 28
-                }
-            ],
-            "currentCostumeIndex": 0,
-            "scratchX": 54,
-            "scratchY": -48,
-            "scale": 1,
-            "direction": 90,
-            "rotationStyle": "normal",
-            "isDraggable": false,
-            "visible": true,
-            "spriteInfo": {}
-        }
-    },
-    {
         "name": "Shirt2",
         "md5": "5946e7a1e36c6d97ae47d41dd8595a41.svg",
         "type": "sprite",
