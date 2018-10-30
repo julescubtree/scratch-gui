@@ -13,7 +13,7 @@ import styles from './sprite-selector.css';
 
 import fileUploadIcon from '../action-menu/icon--file-upload.svg';
 import paintIcon from '../action-menu/icon--paint.svg';
-import spriteIcon from '../action-menu/icon--sprite.svg';
+import spriteIcon from '../action-menu/Dog_tan.svg';
 import surpriseIcon from '../action-menu/icon--surprise.svg';
 import searchIcon from '../action-menu/icon--search.svg';
 
