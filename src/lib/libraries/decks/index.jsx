@@ -16,55 +16,62 @@ import {FormattedMessage} from 'react-intl';
 /* //
 // Intro
 import libraryIntro from './intro/lib-getting-started.jpg';
-import stepMove from './intro/intro1.gif';
-import stepMoveSayHello from './intro/intro2.gif';
+// import stepMove from './intro/intro1.gif';
+// import stepMoveSayHello from './intro/intro2.gif';
 // */
 
+/* //
 // Add sprite
 import libraryAddSprite from './sprite/cover-add-sprite.jpg';
-import stepAddSprite from './sprite/intro-choose-sprite.gif';
+// import stepAddSprite from './sprite/intro-choose-sprite.gif';
+// */
 
+/* //
 // Animate a name
-import libraryAnimate from './animate/lib_animate-a-name.jpg';
-import stepAnimatePickLetter from './animate/animate-name-pick-a-letter.gif';
+// import libraryAnimate from './animate/lib_animate-a-name.jpg';
+// import stepAnimatePickLetter from './animate/animate-name-pick-a-letter.gif';
 import stepAnimatePlaySound from './animate/animate-name-play-sound.gif';
-import stepAnimatePickLetter2 from './animate/animate-name-pick-a-letter2.gif';
-import stepAnimateChangeColor from './animate/animate-name-change-color.gif';
+// import stepAnimatePickLetter2 from './animate/animate-name-pick-a-letter2.gif';
+// import stepAnimateChangeColor from './animate/animate-name-change-color.gif';
 import stepAnimateSpin from './animate/animate-name-spin.gif';
 import stepAnimateGrow from './animate/animate-name-grow.gif';
+// */
 
-
+/* //
 // Make-Music
 import libraryMakeMusic from './make-music/lib-make-music.jpg';
-import stepPickInstrument from './make-music/make-music-pick-instrument.gif';
+// import stepPickInstrument from './make-music/make-music-pick-instrument.gif';
 import stepPlaySoundClick from './make-music/make-music-play-sound.gif';
 import stepMakeSong from './make-music/make-music-make-song.gif';
 import stepMakeBeat from './make-music/make-music-make-beat.gif';
 import stepMakeBeatbox from './make-music/make-music-beatbox.gif';
+// */
 
 /* //
 // Chase-Game
 import libraryChaseGame from './chase-game/lib-chasegame.jpg';
-import stepBG from './chase-game/chase-game-add-backdrop.gif';
-import stepAddOcto from './chase-game/chase-game-add-sprite1.gif';
+// import stepBG from './chase-game/chase-game-add-backdrop.gif';
+// import stepAddOcto from './chase-game/chase-game-add-sprite1.gif';
 import stepLeftRight from './chase-game/chase-game-move-rightleft.gif';
 import stepUpDown from './chase-game/chase-game-move-updown.gif';
-import stepAddStar from './chase-game/chase-game-add-sprite2.gif';
+// import stepAddStar from './chase-game/chase-game-add-sprite2.gif';
 import stepMoveRandom from './chase-game/chase-game-move-randomly.gif';
 import stepWhenTouch from './chase-game/chase-game-touching.gif';
 import stepScoreVariable from './chase-game/chase-game-add-variable.gif';
 import stepScoreWhenTouch from './chase-game/chase-game-change-score.gif';
 // */
 
+/* //
 // Make-A-Game
 import libraryMakeAGame from './game/lib-pop.jpg';
-import stepGamePickSprite from './game/game-pick-sprite.gif';
+// import stepGamePickSprite from './game/game-pick-sprite.gif';
 import stepGamePlaySound from './game/game-play-sound.gif';
 import stepGameAddScore from './game/game-add-score.gif';
 import stepGameChangeScore from './game/game-change-score.gif';
 import stepRandom from './game/game-random-position.gif';
 import stepGameChangeColor from './game/game-change-color.gif';
 import stepResetScore from './game/game-reset-score.gif';
+// */
 
 // Videos
 import recordASound from './videos/record-a-sound.jpg';
@@ -123,7 +130,7 @@ export const tutorialDecksLinkingToScratchIp = {
         ],
         urlId: 1
     }, */
-    'animate-a-name': {
+    /* 'animate-a-name': {
         name: (
             <FormattedMessage
                 defaultMessage="Animate a Name"
@@ -196,8 +203,8 @@ export const tutorialDecksLinkingToScratchIp = {
         }
         ],
         urlId: 2
-    },
-    'Make-Music': {
+    }, */
+    /* 'Make-Music': {
         name: (
             <FormattedMessage
                 defaultMessage="Make Music"
@@ -264,8 +271,8 @@ export const tutorialDecksLinkingToScratchIp = {
         }
         ],
         urlId: 3
-    },
-    'Make-A-Game': {
+    }, */
+    /* 'Make-A-Game': {
         name: (
             <FormattedMessage
                 defaultMessage="Make a Clicker Game"
@@ -349,7 +356,7 @@ export const tutorialDecksLinkingToScratchIp = {
         }
         ],
         urlId: 4
-    },
+    }, */
 
     /* 'Chase-Game': {
         name: (
@@ -453,7 +460,7 @@ export const tutorialDecksLinkingToScratchIp = {
         ],
         urlId: 5
     }, */
-    'add-sprite': {
+    /* 'add-sprite': {
         name: (
             <FormattedMessage
                 defaultMessage="Add a Sprite"
@@ -481,7 +488,7 @@ export const tutorialDecksLinkingToScratchIp = {
             }
         ],
         urlId: 6
-    },
+    }, */
     'add-a-backdrop': {
         name: (
             <FormattedMessage
@@ -553,7 +560,7 @@ export const tutorialDecksLinkingToScratchIp = {
             video: 'https://www.youtube.com/embed/1WaU6e70Zig'
         }, {
             deckIds: [
-                'Make-Music',
+                /* 'Make-Music', */
                 'switch-costume'
             ]
         }],
