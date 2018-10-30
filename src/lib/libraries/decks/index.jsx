@@ -1,3 +1,15 @@
+/**
+ * @file This file imports media assets and exports an object that contains a
+ * deck of Scratch tutorials.
+ * Currently, all files that import Scratch IP graphics are no longer imported
+ * (and have been removed from the repository), and all tutorials that use
+ * those files have been commented out.
+ * The default export is now an empty object, since all tutorials linked to
+ * materials with Scratch IP images (or at least images reminiscent of them).
+ * The modified original export is still available as the object
+ * tutorialDecksLinkingToScratchIp.
+ */
+
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
@@ -65,7 +77,12 @@ import addEffectsThumb from './videos/add-effects.jpg';
 /* import moveArrowKeysThumb from './videos/move-arrow-keys.jpg'; */
 import spinThumb from './videos/spin.jpg';
 
-export default {
+/**
+ * @exports tutorialDecksLinkingToScratchIp This object used to be an unnamed
+ * default export, but it is no longer. (See the end of the file for the default
+ * export.)
+ */
+export const tutorialDecksLinkingToScratchIp = {
 
     /* 'intro-move-sayhello': {
         name: (
@@ -640,3 +657,9 @@ export default {
         urlId: 15
     }
 };
+
+/**
+ * @exports default The default export is now an empty tutorial deck to avoid
+ * linking to Scratch IP images.
+ */
+export default {};
