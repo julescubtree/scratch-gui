@@ -17,7 +17,11 @@ class Storage extends ScratchStorage {
             this.getProjectUpdateConfig.bind(this)
         );
         this.addWebStore(
-            [this.AssetType.ImageVector, this.AssetType.ImageBitmap, this.AssetType.Sound],
+            [this.AssetType.ImageVector, this.AssetType.ImageBitmap],
+            this.getGraphicalAssetGetConfig.bind(this)
+        );
+        this.addWebStore(
+            [this.AssetType.Sound],
             this.getAssetGetConfig.bind(this)
         );
         this.addWebStore(
@@ -45,6 +49,10 @@ class Storage extends ScratchStorage {
     }
     setAssetHost (assetHost) {
         this.assetHost = assetHost;
+    }
+    getGraphicalAssetGetConfig (asset) {
+        // return `${this.assetHost}/internalapi/asset/${asset.assetId}.${asset.dataFormat}/get/`;
+        return `https://storage.googleapis.com/jct-scratch-graphical-asset-sandbox/${asset.assetId}.${asset.dataFormat}`;
     }
     getAssetGetConfig (asset) {
         return `${this.assetHost}/internalapi/asset/${asset.assetId}.${asset.dataFormat}/get/`;
