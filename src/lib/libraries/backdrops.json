@@ -121,19 +121,6 @@
         ]
     },
     {
-        "name": "Bedroom 3",
-        "md5": "8cc0b88d53345b3e337e8f028a32a4e7.png",
-        "type": "backdrop",
-        "tags": [
-            "indoors"
-        ],
-        "info": [
-            960,
-            720,
-            2
-        ]
-    },
-    {
         "name": "Bench With View",
         "md5": "962201a2b712a302fb087f8f0dcb2076.png",
         "type": "backdrop",
