@@ -1,6 +1,8 @@
 import {BitmapAdapter} from 'scratch-svg-renderer';
 import log from './log.js';
 
+import scratchStorage from './storage';
+
 /**
  * Extract the file name given a string of the form fileName + ext
  * @param {string} nameExt File name + extension (e.g. 'my_image.png')
@@ -124,6 +126,12 @@ const costumeUpload = function (fileData, fileType, costumeName, storage, handle
             costumeFormat,
             dataBuffer
         );
+
+        //* //
+        // for now, force store of graphical asset here
+        scratchStorage.store(vmCostume.asset.assetType, vmCostume.asset.dataFormat, vmCostume.asset.data, vmCostume.asset.assetId);        
+        // */
+
         handleCostume(vmCostume);
     };
 

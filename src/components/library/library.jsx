@@ -171,6 +171,7 @@ class LibraryComponent extends React.Component {
                     ref={this.setFilteredDataRef}
                 >
                     {this.getFilteredData().map((dataItem, index) => {
+                        // Will this eventually use ScratchStorage?
                         const scratchURL = dataItem.md5 ?
                             // `https://assets.scratch.mit.edu/internalapi/asset/${dataItem.md5}/get/` :
                             `https://storage.googleapis.com/jct-scratch-graphical-asset-sandbox/${dataItem.md5}` :
