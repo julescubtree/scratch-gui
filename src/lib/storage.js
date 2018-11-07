@@ -31,6 +31,7 @@ class Storage extends ScratchStorage {
             this.getProjectCreateConfig.bind(this),
             this.getProjectUpdateConfig.bind(this)
         );
+
         /* //
         // formerly used to get Cloud Storage assets via XML API and not Firebase
         this.addWebStore(
@@ -38,6 +39,16 @@ class Storage extends ScratchStorage {
             this.getGraphicalAssetGetConfig.bind(this)
         );
         // */
+
+        /*
+        Although the FirebaseHelper grabs things from the Cloud Storage server,
+        we add another webstore as a fallback for assets that we don't have.
+        */
+        this.addWebStore(
+            [this.AssetType.ImageVector, this.AssetType.ImageBitmap],
+            this.getAssetGetConfig.bind(this)
+        );
+
         this.addWebStore(
             [this.AssetType.Sound],
             this.getAssetGetConfig.bind(this)
